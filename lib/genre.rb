@@ -9,5 +9,6 @@ class Genre
   end
 
   def songs
+    Song.all.map {|song| song.genre = genre}
   end
 end
