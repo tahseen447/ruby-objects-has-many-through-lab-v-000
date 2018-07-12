@@ -6,6 +6,7 @@ class Genre
   end
 
   def artists
+    
   end
 
   def songs
