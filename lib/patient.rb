@@ -9,3 +9,7 @@ class Patient
     new_appointment = Appointment.new(self, doctor, date)
     new_appointment
   end
+
+  def doctors
+    Appointment.all.map {|appointment| appointment.doctor}
+  end
