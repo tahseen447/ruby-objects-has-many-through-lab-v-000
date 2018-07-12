@@ -13,9 +13,9 @@ class Doctor
   end
 
   def new_appointment(patient, date)
-      new_appointment = Appointment.new(patient, self, date)
-      #@appointment << new_appointment
-end
+    new_appointment = Appointment.new(patient, self, date)
+  end
+
 
   def patients
   #  Appointment.all.map {|appointment| appointment.patient}
