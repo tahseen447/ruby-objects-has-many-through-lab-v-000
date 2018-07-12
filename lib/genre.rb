@@ -6,10 +6,10 @@ class Genre
   end
 
   def artists
-    
+
   end
 
   def songs
-    Song.all.map {|song| song.genre = genre}
+    Song.all.map {|song| song.genre.name = genre.name}
   end
 end
